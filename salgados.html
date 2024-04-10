@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./salgados.css" />
+    <title>Receitas GO</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index/index.html" class="voltar">
+        <svg
+          width="25px"
+          height="25px"
+          viewBox="0 0 1024 1024"
+          fill="var(--cor-terciaria)"
+          class="icon"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="var(--cor-terciaria)"
+          stroke-width="30.72"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z"
+              fill=""
+            />
+          </g>
+        </svg>
+        <p>Voltar</p>
+      </a>
+      <h1><a href="../index/index.html">Receitas GO</a></h1>
+    </header>
+
+    <main class="main">
+      <section class="py-5">
+        <h2 class="fw-bold text-center pb-1">Receitas Salgadas</h2>
+        <div class="container-cards">
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-1"
+          >
+            <img
+              src="../assets/imagem-coxinha-de-frango.jpeg"
+              class="card-img-top"
+              alt="Imagem de algumas coxinhas de frango com catupiry e com um pote de ketchup, todos em cima de uma táboa de colocar alimentos."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Coxinha de frango</p>
+            </div>
+          </div>
+
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-2"
+          >
+            <img
+              src="../assets/imagem-quibe.png"
+              class="card-img-top"
+              alt="Imagem de alguns quibes e um pote de molho ranch, todos em cima de uma táboa de colocar alimentos."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Quibe</p>
+            </div>
+          </div>
+
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-3"
+          >
+            <img
+              src="../assets/imagem-lasanha.jpg"
+              class="card-img-top"
+              alt="Imagem de uma pedaço de lasanha de carne moída em um prato branco."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Lasanha à bolonhesa</p>
+            </div>
+          </div>
+
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-4"
+          >
+            <img
+              src="../assets/imagem-parmegiana.jpg"
+              class="card-img-top"
+              alt="Imagem de uma parmegiana em cima de um prato branco."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Parmegiana</p>
+            </div>
+          </div>
+
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-5"
+          >
+            <img
+              src="../assets/imagem-strogonoff.jpg"
+              class="card-img-top"
+              alt="Imagem de um prato cinza claro com strogonoff, arroz e batata palha."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Strogonoff de frango</p>
+            </div>
+          </div>
+
+          <div
+            class="card btn"
+            style="width: 18rem"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-6"
+          >
+            <img
+              src="../assets/imagem-fricasse.jpg"
+              class="card-img-top"
+              alt="Imagem de uma travessa de fricassê com queijo gratinado e batata palha por cima."
+            />
+            <div class="card-body">
+              <p class="card-text fw-bold">Fricassê</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <!-- Modal 1 -->
+
+    <div
+      class="modal fade"
+      id="modal-1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Coxinha de frango
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-coxinha-de-frango.jpeg"
+            alt="Imagem de algumas coxinhas de frango com catupiry e com um pote de ketchup, todos em cima de uma táboa de colocar alimentos."
+          />
+          <div class="modal-body fw-bold fw-bold">
+            <ul class="ul-1">
+              <p class="fw-bold fs-5">Ingredientes</p>
+              <li>1 peito de frango com pele e osso</li>
+              <li>2 litros de água</li>
+              <li>tiras da casca de 1 limão</li>
+              <li>½ cebola</li>
+              <li>1 talo de salsão (com as folhas)</li>
+              <li>2 folhas de louro</li>
+              <li>4 cravos-da-índia</li>
+              <li>1 colher (chá) de pimenta-do-reino em grãos</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>
+                Descasque e pique fino a cebola e os dentes de alho. Lave, seque
+                e corte os tomates ao meio; descarte as sementes e corte cada
+                metade em cubos de 0,5 cm. Lave, seque e corte a pimenta
+                dedo-de-moça ao meio; descarte as sementes e pique fino as
+                metades. Dica: para evitar acidentes com dedos apimentados nos
+                olhos, passe óleo ou azeite nas mãos depois de cortar as
+                pimentas — a capsaicina, substância responsável pelo ardor, é
+                lipossolúvel – e depois lave bem as mãos.
+              </li>
+              <li>
+                Leve uma panela média com a manteiga ao fogo médio. Quando
+                derreter, adicione a cebola, tempere com uma pitada de sal e
+                refogue por 2 minutos até murchar. Junte o alho e a pimenta
+                picados e mexa por 1 minuto para perfumar. Tempere com o colorau
+                e o coentro em pó, acrescente o tomate e refogue por 3 minutos,
+                até começar a desmanchar e formar uma pastinha.
+              </li>
+              <li>
+                Adicione o frango desfiado, tempere com sal e pimenta a gosto e
+                misture bem. Regue com o caldo de frango e cozinhe, mexendo de
+                vez em quando, por cerca de 10 minutos até secar.
+              </li>
+              <li>
+                Polvilhe com a farinha e misture bem até engrossar levemente —
+                dessa forma o recheio fica molhadinho mas sem umedecer a massa
+                da coxinha. Desligue o fogo e misture a salsinha picada.
+              </li>
+              <li>
+                Transfira o recheio para uma tigela e espere esfriar antes de
+                montar as coxinhas — se estiver quente, ele pode umedecer a
+                massa na hora de modelar as coxinhas. Enquanto isso, prepare a
+                massa.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+
+    <div
+      class="modal fade"
+      id="modal-2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Quibe
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-quibe.png"
+            alt="Imagem de alguns quibes e um pote de molho ranch, todos em cima de uma táboa de colocar alimentos."
+          />
+          <div class="modal-body fw-bold">
+            <ul class="ul-1">
+              <p class="fw-bold fs-5">Ingredientes</p>
+              <li>
+                500g de carne moída (pode ser bovina, cordeiro ou uma mistura)
+              </li>
+              <li>1 xícara de trigo para quibe</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1/4 de xícara de hortelã fresca picada</li>
+              <li>1 colher de chá de cominho em pó</li>
+              <li>1 colher de chá de pimenta síria (opcional)</li>
+              <li>Sal a gosto</li>
+              <li>Azeite de oliva para untar</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>
+                Em uma tigela grande, misture o trigo para quibe com água
+                suficiente para cobri-lo. Deixe de molho por cerca de 30 minutos
+                e depois escorra bem.
+              </li>
+              <li>Pré-aqueça o forno a 200°C.</li>
+              <li>
+                Em outra tigela, misture a carne moída, a cebola picada, o alho,
+                a hortelã, o cominho, a pimenta síria (se estiver usando) e o
+                sal.
+              </li>
+              <li>
+                Adicione o trigo escorrido à mistura de carne e misture bem até
+                ficar homogêneo.
+              </li>
+              <li>Unte uma forma com azeite de oliva.</li>
+              <li>
+                Espalhe a mistura de carne e trigo na forma, pressionando com as
+                mãos para alisar a superfície.
+              </li>
+              <li>Corte o quibe em losangos ou quadrados.</li>
+              <li>Regue com um fio de azeite sobre o quibe.</li>
+              <li>
+                Asse no forno pré-aquecido por cerca de 30-40 minutos, ou até
+                que fique dourado por cima.
+              </li>
+              <li>Sirva quente acompanhado de coalhada seca e salada verde.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+
+    <div
+      class="modal fade"
+      id="modal-3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Lasanha á bolonhesa
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-lasanha.jpg"
+            alt="Imagem de uma pedaço de lasanha de carne moída em um prato branco."
+          />
+          <div class="modal-body fw-bold">
+            <ul class="ul-1">
+              <p class="fw-bold fs-5">Ingredientes</p>
+              <li>500g de massa para lasanha</li>
+              <li>500g de carne moída</li>
+              <li>1 cebola média picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 lata de molho de tomate</li>
+              <li>2 xícaras de molho bechamel (molho branco)</li>
+              <li>1 xícara de queijo parmesão ralado</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite de oliva</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>Pré-aqueça o forno a 180°C.</li>
+              <li>
+                Em uma panela grande, aqueça um pouco de azeite e refogue a
+                cebola e o alho até ficarem dourados.
+              </li>
+              <li>
+                Adicione a carne moída e cozinhe até que esteja completamente
+                dourada.
+              </li>
+              <li>
+                Acrescente o molho de tomate à carne, tempere com sal e pimenta
+                a gosto e deixe cozinhar por cerca de 10 minutos.
+              </li>
+              <li>
+                Em uma forma refratária, monte camadas alternadas de molho
+                bolonhesa, massa para lasanha e molho bechamel, finalizando com
+                o molho bechamel por cima.
+              </li>
+              <li>Polvilhe o queijo parmesão ralado sobre a última camada.</li>
+              <li>
+                Cubra a forma com papel alumínio e leve ao forno por cerca de
+                40-45 minutos.
+              </li>
+              <li>
+                Retire o papel alumínio e deixe assar por mais 10-15 minutos, ou
+                até que o queijo esteja dourado e borbulhante.
+              </li>
+              <li>Deixe repousar por alguns minutos antes de servir.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+
+    <div
+      class="modal fade"
+      id="modal-4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Parmegiana
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-parmegiana.jpg"
+            alt="Imagem de uma parmegiana em cima de um prato branco."
+          />
+          <div class="modal-body fw-bold">
+            <ul class="ul-1">
+              <p class="fs-5">Ingredientes</p>
+              <li>4 filés de peito de frango</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Farinha de trigo para empanar</li>
+              <li>2 ovos batidos</li>
+              <li>Farinha de rosca para empanar</li>
+              <li>Óleo para fritar</li>
+              <li>Molho de tomate</li>
+              <li>Queijo muçarela ralado</li>
+              <li>Queijo parmesão ralado</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>Tempere os filés de frango com sal e pimenta a gosto.</li>
+              <li>
+                Passe os filés de frango pela farinha de trigo, depois pelos
+                ovos batidos e, por último, pela farinha de rosca, garantindo
+                que estejam completamente cobertos.
+              </li>
+              <li>
+                Aqueça o óleo em uma frigideira e frite os filés empanados até
+                dourarem dos dois lados. Escorra em papel toalha.
+              </li>
+              <li>
+                Em uma forma, coloque uma camada fina de molho de tomate no
+                fundo.
+              </li>
+              <li>Disponha os filés fritos sobre o molho de tomate.</li>
+              <li>Cubra os filés com mais molho de tomate.</li>
+              <li>Espalhe queijo muçarela ralado por cima do molho.</li>
+              <li>Polvilhe queijo parmesão ralado sobre a muçarela.</li>
+              <li>
+                Leve ao forno preaquecido a 180°C por cerca de 20 minutos, ou
+                até que o queijo esteja derretido e borbulhante.
+              </li>
+              <li>Sirva quente acompanhado de arroz branco e salada.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+
+    <div
+      class="modal fade"
+      id="modal-5"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Strogonoff de frango
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-strogonoff.jpg"
+            alt="Imagem de um prato cinza claro com strogonoff, arroz e batata palha."
+          />
+          <div class="modal-body fw-bold">
+            <ul class="ul-1">
+              <p class="fs-5">Ingredientes</p>
+              <li>500g de peito de frango cortado em tiras</li>
+              <li>1 cebola grande picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>200g de cogumelos frescos fatiados</li>
+              <li>1 lata de creme de leite</li>
+              <li>1/2 xícara de molho de tomate</li>
+              <li>1 colher de sopa de mostarda</li>
+              <li>1 colher de sopa de ketchup</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Azeite de oliva</li>
+              <li>Salsinha picada (opcional)</li>
+              <li>Arroz branco para acompanhar</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>
+                Em uma panela grande, aqueça um pouco de azeite e refogue a
+                cebola e o alho até ficarem dourados.
+              </li>
+              <li>
+                Adicione o frango cortado em tiras à panela e cozinhe até
+                dourar.
+              </li>
+              <li>
+                Acrescente os cogumelos fatiados e cozinhe por mais alguns
+                minutos até que os cogumelos estejam macios.
+              </li>
+              <li>
+                Adicione o molho de tomate, o ketchup e a mostarda ao frango e
+                aos cogumelos, misture bem e deixe cozinhar por mais alguns
+                minutos.
+              </li>
+              <li>
+                Reduza o fogo e adicione o creme de leite, mexendo delicadamente
+                para incorporar.
+              </li>
+              <li>Tempere com sal e pimenta a gosto.</li>
+              <li>
+                Cozinhe por mais alguns minutos até o molho engrossar levemente.
+              </li>
+              <li>
+                Sirva o strogonoff de frango quente, polvilhado com salsinha
+                picada, acompanhado de arroz branco.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+
+    <div
+      class="modal fade"
+      id="modal-6"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Fricassê
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <img
+            src="../assets/imagem-fricasse.jpg"
+            alt="Imagem de uma travessa de fricassê com queijo gratinado e batata palha por cima."
+          />
+          <div class="modal-body fw-bold">
+            <ul class="ul-1">
+              <p class="fw-bold fs-5">Ingredientes</p>
+              <li>500g de peito de frango cozido e desfiado</li>
+              <li>1 cebola grande picada</li>
+              <li>2 dentes de alho picados</li>
+              <li>1 lata de milho verde escorrido</li>
+              <li>1 lata de ervilha escorrida</li>
+              <li>1 xícara de requeijão cremoso</li>
+              <li>1/2 xícara de queijo parmesão ralado</li>
+              <li>1/2 xícara de leite</li>
+              <li>1 colher de sopa de manteiga</li>
+              <li>Sal e pimenta a gosto</li>
+              <li>Batata palha para decorar</li>
+            </ul>
+
+            <ul class="ul-2">
+              <p class="fs-5">Modo de preparo</p>
+              <li>
+                Em uma panela grande, derreta a manteiga e refogue a cebola e o
+                alho até ficarem dourados.
+              </li>
+              <li>Adicione o frango desfiado à panela e misture bem.</li>
+              <li>
+                Acrescente o milho e a ervilha escorridos ao frango e misture
+                novamente.
+              </li>
+              <li>
+                Em seguida, adicione o requeijão cremoso, o queijo parmesão
+                ralado e o leite à panela, mexendo até obter um molho cremoso.
+              </li>
+              <li>
+                Tempere com sal e pimenta a gosto e cozinhe por mais alguns
+                minutos.
+              </li>
+              <li>
+                Transfira o fricassé de frango para uma travessa refratária.
+              </li>
+              <li>Cubra com batata palha antes de servir.</li>
+              <li>Sirva quente acompanhado de arroz branco e salada.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

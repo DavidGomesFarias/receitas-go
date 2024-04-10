@@ -1,0 +1,147 @@
+:root {
+    --cor-primaria: #fff;
+    --cor-secundaria: #522800;
+    --cor-terciaria: #FFBD10;
+    --cor-quaternaria: #000;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: -8px 0px 0px 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.header {
+    background-color: var(--cor-terciaria);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1 a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.header .voltar {
+    border-radius: 20px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 30px;
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px var(--cor-terciaria);
+}
+
+
+.voltar p {
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.voltar:hover {
+    transition: .2s;
+    opacity: .5;
+}
+
+.main {
+    height: 600px;
+    width: 100vw;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+section .envolvidos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+section .briefing {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.footer {
+    background-color: var(--cor-terciaria);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer h2 {
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.container-github {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.container-github div {
+    background-color: var(--cor-terciaria);
+    box-shadow: 0px 0px 10px var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+}
+
+.container-github div p {
+    font-weight: bold;
+}
+
+.container-github div a {
+    color: var(--cor-secundaria);
+}
+
+.container-github div a:hover {
+    color: var(--cor-secundaria);
+    scale: 1.02;
+    transition: .2s;
+}
